@@ -17,7 +17,7 @@ jobs:
     - name: Create an updated chrome/SubjectManager.jar file
       run: |
          cd chrome
-         zip SubjectManager.jar content/* locale/* skin/* 
+         zip -r SubjectManager.jar content/* locale/* skin/* 
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
