@@ -2,14 +2,13 @@ name: Add-in
 
 on: [push]
 
+env:
+   ADDIN_NAME: Subject_manager
+   MAJOR: 1
+   MINOR: 2.1
+   APP: tb
+
 jobs:
-  env:
-      ADDIN_NAME: Subject_manager
-      MAJOR: 1
-      MINOR: 2.1
-      APP: tb
-      
-     
   build:
 
     runs-on: ubuntu-latest
