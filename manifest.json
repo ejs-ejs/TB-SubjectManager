@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "SubjectManager@gmail.com"
+    }
+  },
+  "name": "Subject Manager",
+  "description": "Manages subject for email",
+  "homepage_url": "https://addons.mozilla.org/thunderbird/addon/subject-manager/",
+  "version": "1.2.1a",
+  "author": "Subject Manager Developing Team: TrV, Fly (concept, beta testing), Vinser (beta testing, features upgrade), Vinser (ru-RU), Mikael Hiort af Ornäs (sv-SE), ",
+  
+  "icons": {
+    "32": "skin/icon.png"
+  },
+  "legacy": {
+    "type": "xul",
+    "options": {
+      "page": "chrome://SubjectManager/content/options.xul",
+      "open_in_tab": true
+    }
+  }
+}
