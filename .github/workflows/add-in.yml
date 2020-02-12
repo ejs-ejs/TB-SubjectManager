@@ -1,0 +1,25 @@
+name: Add-in
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Make an Thunderbird add-in
+      run: |
+        zip -r Subject_manager_1.2.1-tb.xpi chrome/SubjectManager.jar components/* defaults/* chrome.manifest manifest.json
+    - name: Commit file
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git pull
+        git add Subject_manager_1.2.1-tb.xpi
+        git commit -m "Subject_manager_1.2.1-tb.xpi created" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
