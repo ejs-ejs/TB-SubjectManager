@@ -1,0 +1,12 @@
+<!-- ru-RU -->
+<!ENTITY subjectmanager								"Subject Manager">
+<!ENTITY subjectmanager.toolbar.text				"Управление темами">
+<!ENTITY subjectmanager.toolbar.tooltip				"Управление темами сообщений">
+<!ENTITY subjectmanager.toolbar.menuitem1.text		"Темы">
+<!ENTITY subjectmanager.toolbar.menuitem1.tooltip	"Выберите тему из списка">
+<!ENTITY subjectmanager.toolbar.menuitem2.text		"Сохранить тему">
+<!ENTITY subjectmanager.toolbar.menuitem2.tooltip	"Сохранить тему текущего сообщения в список">
+<!ENTITY subjectmanager.toolbar.menuitem3.text		"Удалить авто-префиксы">
+<!ENTITY subjectmanager.toolbar.menuitem3.tooltip	"Удаление всех автоматических префиксов из темы текущего сообщения">
+<!ENTITY subjectmanager.toolbar.menuitem4.text		"Настройки">
+<!ENTITY subjectmanager.toolbar.menuitem4.tooltip	"Открыть диалог настроек">

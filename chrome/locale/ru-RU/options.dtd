@@ -1,0 +1,101 @@
+<!-- ru-RU -->
+<!ENTITY subjectmanager.options.text										"Subject Manager > Настройки">
+<!ENTITY subjectmanager.options.window.text									"Subject Manager > Настройки">
+<!ENTITY subjectmanager.options.window.extra1.text							"Закрыть и применить">
+<!ENTITY subjectmanager.options.window.extra2.text							"Сбросить">
+<!ENTITY subjectmanager.options.window.tab.help.tooltiptext					"Справка">
+<!ENTITY subjectmanager.options.window.tab1.text							"Список тем">
+<!ENTITY subjectmanager.options.window.tab1.group1.text						"Темы сообщений">
+<!ENTITY subjectmanager.options.window.tab1.add.tooltiptext					"Добавить новую тему">
+<!ENTITY subjectmanager.options.window.tab1.modify.tooltiptext				"Изменить выделенную тему">
+<!ENTITY subjectmanager.options.window.tab1.up.tooltiptext					"Переместить выделенную тему вверх">
+<!ENTITY subjectmanager.options.window.tab1.down.tooltiptext				"Переместить выделенную тему вниз">
+<!ENTITY subjectmanager.options.window.tab1.sort.tooltiptext				"Сортировать темы в алфавитном порядке">
+<!ENTITY subjectmanager.options.window.tab1.remove.tooltiptext				"Удалить выделенную тему">
+<!ENTITY subjectmanager.options.window.tab1.group4.text						"Когда тема выбирается из списка">
+<!ENTITY subjectmanager.options.window.tab1.replace.text					"Заменять текущую тему">
+<!ENTITY subjectmanager.options.window.tab1.appendbeginning.text			"Добавлять к началу текущей темы">
+<!ENTITY subjectmanager.options.window.tab1.appendbeginningend.text			"Добавлять к концу предыдущей выбранной из списка темы">
+<!ENTITY subjectmanager.options.window.tab1.appendend.text					"Добавлять к концу текущей темы">
+<!ENTITY subjectmanager.options.window.tab1.appendendbeginning.text			"Добавлять к началу предыдущей выбранной из списка темы">
+<!ENTITY subjectmanager.options.window.tab1.group3.text						"Разное">
+<!ENTITY subjectmanager.options.window.tab1.case.text						"Чувствительность к регистру">
+<!ENTITY subjectmanager.options.window.tab1.advanced.text					"Разрешить расширенный режим">
+<!ENTITY subjectmanager.options.window.tab1.advanced.tooltiptext			"В этом режиме: &#37;y вставка года (4 цифры), &#37;x вставка года (2 цифры), &#37;m вставка месяца, &#37;b вставка названия месяца, &#37;d вставка дня, &#37;w вставка названия дня недели, &#37;h вставка часов (24-часовой формат), &#37;k вставка часов (12-часовой формат), &#37;p вставка 'AM'/'PM' (до полудня/после), &#37;n вставка минут, &#37;s вставка секунд, &#37;g вставка индивидуального счетчика, &#37;i вставка индивидуального счетчика, &#37;&#37; вставка символа '&#37;'">
+<!ENTITY subjectmanager.options.window.tab2.text							"Темы по умолчанию">
+<!ENTITY subjectmanager.options.window.tab2.group1.text						"Темы по умолчанию">
+<!ENTITY subjectmanager.options.window.tab2.handlesubjectsidentities.text	"Управление идентификаторами эккаунтов (учетных записей)">
+<!ENTITY subjectmanager.options.window.tab2.account.text					"Эккаунт">
+<!ENTITY subjectmanager.options.window.tab2.defaultsubject.text				"Тема по умолчанию">
+<!ENTITY subjectmanager.options.window.tab2.updatedefaultsubj.tooltiptext	"Обновить тему по умолчанию">
+<!ENTITY subjectmanager.options.window.tab2.insertifempty.text				"Только если пусто">
+<!ENTITY subjectmanager.options.window.tab2.insertifempty.tooltiptext		"Вставлять только в том случае, если предыдущая тема пуста">
+<!ENTITY subjectmanager.options.window.tab2.insertdefault.text				"Разрешено">
+<!ENTITY subjectmanager.options.window.tab2.accountkey.text					"Id">
+<!ENTITY subjectmanager.options.window.tab2.accountlabel.text				"Название эккаунта">
+<!ENTITY subjectmanager.options.window.tab2.ifempty.text					"Если пусто">
+<!ENTITY subjectmanager.options.window.tab3.text							"Счетчики">
+<!ENTITY subjectmanager.options.window.tab3.group1.text						"Глобальный счетчик">
+<!ENTITY subjectmanager.options.window.tab3.countervalue.text				"Значение счетчика">
+<!ENTITY subjectmanager.options.window.tab3.updatecounter.text				"Обновлять счетчик при">
+<!ENTITY subjectmanager.options.window.tab3.sendingmsg.text					"1: Отправке сообщения">
+<!ENTITY subjectmanager.options.window.tab3.savingmsg.text					"2: Сохранении сообщения">
+<!ENTITY subjectmanager.options.window.tab3.updatingindividualcounter.text	"3: Обновлять любой индивидуальный счетчик">
+<!ENTITY subjectmanager.options.window.tab3.format.text						"Формат">
+<!ENTITY subjectmanager.options.window.tab3.format.tooltiptext				"Указать количество цифр в счетчике, hапример: 2 для 01, 02, и т. д. / 3 для 001, 002, и т. д.">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.text				"{Reset every}">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice0			"-">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice1			"{1: day}">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice2			"{2: week}">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice3			"{3: month}">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice4			"{4: year}">
+<!ENTITY subjectmanager.options.window.tab3.group2.text						"Индивидуальные счетчики">
+<!ENTITY subjectmanager.options.window.tab3.handlecounteridentities.text	"Управление идентификаторами эккаунтов (учетных записей)">
+<!ENTITY subjectmanager.options.window.tab3.account.text					"Эккаунт">
+<!ENTITY subjectmanager.options.window.tab3.hdraccountkey.text				"Id">
+<!ENTITY subjectmanager.options.window.tab3.hdraccountlabel.text			"Название эккаунта">
+<!ENTITY subjectmanager.options.window.tab3.hdrcounter.text					"{Counter}">
+<!ENTITY subjectmanager.options.window.tab3.hdrupdate.text					"{Update}">
+<!ENTITY subjectmanager.options.window.tab3.hdrreset.text					"{Reset}">
+<!ENTITY subjectmanager.options.window.tab3.updatevalue.tooltiptext			"Обновить значение индивидуального счетчика">
+<!ENTITY subjectmanager.options.window.tab4.text							"Автоматические префиксы">
+<!ENTITY subjectmanager.options.window.tab4.group0.text						"Автоматические префиксы">
+<!ENTITY subjectmanager.options.window.tab4.group1.text						"Содержит список префиксов добавляемых при ответе на сообщение">
+<!ENTITY subjectmanager.options.window.tab4.replyprefixes.tooltiptext		"Пример: Re:??R:">
+<!ENTITY subjectmanager.options.window.tab4.group2.text						"Содержит список префиксов добавляемых при пересылке сообщения">
+<!ENTITY subjectmanager.options.window.tab4.forwardprefixes.tooltiptext		"Пример: Fwd:??F:">
+<!ENTITY subjectmanager.options.window.tab4.group3.text						"Содержит список прочих префиксов">
+<!ENTITY subjectmanager.options.window.tab4.otherprefixes.tooltiptext		"Пример: Your last mail:??Answer to:??В ответ на:">
+<!ENTITY subjectmanager.options.window.tab4.autoprefixesautoremoval.text	"Автоматически удалять префиксы">
+<!ENTITY subjectmanager.options.window.tab4.prefixeskeep1.text				"Оставлять первый автоматический префикс">
+<!ENTITY subjectmanager.options.window.tab4.replace1streply.text			"Заменять префикс ответа">
+<!ENTITY subjectmanager.options.window.tab4.replace1stforward.text			"Заменять префикс пересылки">
+<!ENTITY subjectmanager.options.window.tab4.replacementprefix.text			"Заменяющий префикс">
+<!ENTITY subjectmanager.options.window.tab5.text							"Фильтры сообщений">
+<!ENTITY subjectmanager.options.window.tab5.group1.text						"Фильтры">
+<!ENTITY subjectmanager.options.window.tab5.selectallfilters.text			"Разрешить/Запретить обработку всех фильтров">
+<!ENTITY subjectmanager.options.window.tab5.filtersubject.text				"Тема">
+<!ENTITY subjectmanager.options.window.tab6.text							"Разное">
+<!ENTITY subjectmanager.options.window.tab6.group1.text						"Настройки поля 'Тема:' в редакторе сообщений">
+<!ENTITY subjectmanager.options.window.tab6.subjectautocomplete.text		"Разрешить автодополнение">
+<!ENTITY subjectmanager.options.window.tab6.subjectautocompcase.text		"Чувствительность к регистру">
+<!ENTITY subjectmanager.options.window.tab6.subjectsbutton.text				"Разрешить кнопку выбора сохраненных тем">
+<!ENTITY subjectmanager.options.window.tab6.labelreplacement.text			"Заменить кнопкой заголовок 'Тема:'">
+<!ENTITY subjectmanager.options.window.tab6.focusemailbody.text				"Фокус на тело сообщения, когда тема выбрана">
+<!ENTITY subjectmanager.options.window.tab6.group2.text						"{Subjects tools}">
+<!ENTITY subjectmanager.options.window.tab6.exportsubjects.text				"{Export subjects}">
+<!ENTITY subjectmanager.options.window.tab6.exportsubjects.tooltiptext		"{Export subjects to file}">
+<!ENTITY subjectmanager.options.window.tab6.importsubjects.text				"{Import subjects}">
+<!ENTITY subjectmanager.options.window.tab6.importsubjects.tooltiptext		"{Import subjects from file}">
+<!ENTITY subjectmanager.options.window.tab6.group3.text						"Справка и поддержка">
+<!ENTITY subjectmanager.options.window.tab6.debugmode.text					"Разрешить режим отладки (сообщения будут отображены в консоли ошибок)">
+<!ENTITY subjectmanager.options.window.tab6.debugmode2file.text				"Записывать сообщения в файл">
+<!ENTITY subjectmanager.options.window.tab6.debugmode2file.tooltiptext		"Выбрать размещение лог-файла">
+<!ENTITY subjectmanager.options.window.tab6.reinitautocomplete.text			"Переинициализация автодополнения">
+<!ENTITY subjectmanager.options.window.tab6.defaults.text					"Сброс к настройкам по умолчанию">
+<!ENTITY subjectmanager.options.window.tab6.defaults.tooltiptext			"Очистить и сбросить все настроки к настройкам по умолчанию">
+<!ENTITY subjectmanager.options.window.tab6.exportsettings.text				"{Export settings}">
+<!ENTITY subjectmanager.options.window.tab6.exportsettings.tooltiptext		"{Export settings to file}">
+<!ENTITY subjectmanager.options.window.tab6.help.text						"Показать справку">
+<!ENTITY subjectmanager.options.window.tab6.contact.text					"Контакт:">
+<!ENTITY subjectmanager.options.window.tab6.donation.text					"{Donation}:">
