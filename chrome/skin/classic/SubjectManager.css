@@ -1,0 +1,62 @@
+/*-moz-image-region: rect(Up Right Down Left);
+/* composer overlay button */
+#subjectManagerComposerOverlayButton {
+	list-style-image: url("chrome://SubjectManager/skin/SubjectManager2.png");
+	-moz-image-region: rect(25px 23px 49px 1px);
+}
+
+#subjectManagerComposerOverlayButton:hover {
+	list-style-image: url("chrome://SubjectManager/skin/SubjectManager2.png");
+	-moz-image-region: rect(0px 23px 24px 1px);
+}
+
+#subjectManagerComposerOverlayButton[disabled] {
+	list-style-image: url("chrome://SubjectManager/skin/SubjectManager2.png");
+	-moz-image-region: rect(50px 23px 74px 1px);
+}
+
+toolbar[iconsize="small"] #subjectManagerComposerOverlayButton {
+	list-style-image: url("chrome://SubjectManager/skin/SubjectManager2.png");
+	-moz-image-region: rect(26px 41px 43px 25px);
+}
+
+toolbar[iconsize="small"] #subjectManagerComposerOverlayButton:hover {
+	list-style-image: url("chrome://SubjectManager/skin/SubjectManager2.png");
+	-moz-image-region: rect(1px 41px 18px 25px);
+}
+
+toolbar[iconsize="small"] #subjectManagerComposerOverlayButton[disabled] {
+	list-style-image: url("chrome://SubjectManager/skin/SubjectManager2.png");
+	-moz-image-region: rect(51px 41px 68px 25px);
+}
+
+/* overlay button */
+#subjectManagerOverlayButton {
+	list-style-image: url("chrome://SubjectManager/skin/SubjectManager1.png");
+	-moz-image-region: rect(25px 23px 49px 1px);
+}
+
+#subjectManagerOverlayButton:hover {
+	list-style-image: url("chrome://SubjectManager/skin/SubjectManager1.png");
+	-moz-image-region: rect(0px 23px 24px 1px);
+}
+
+#subjectManagerOverlayButton[disabled] {
+	list-style-image: url("chrome://SubjectManager/skin/SubjectManager1.png");
+	-moz-image-region: rect(50px 23px 74px 1px);
+}
+
+toolbar[iconsize="small"] #subjectManagerOverlayButton {
+	list-style-image: url("chrome://SubjectManager/skin/SubjectManager1.png");
+	-moz-image-region: rect(26px 41px 43px 25px);
+}
+
+toolbar[iconsize="small"] #subjectManagerOverlayButton:hover {
+	list-style-image: url("chrome://SubjectManager/skin/SubjectManager1.png");
+	-moz-image-region: rect(1px 41px 18px 25px);
+}
+
+toolbar[iconsize="small"] #subjectManagerOverlayButton[disabled] {
+	list-style-image: url("chrome://SubjectManager/skin/SubjectManager1.png");
+	-moz-image-region: rect(51px 41px 68px 25px);
+}
