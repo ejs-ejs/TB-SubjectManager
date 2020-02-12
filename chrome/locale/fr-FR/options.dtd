@@ -1,0 +1,101 @@
+<!-- fr-FR -->
+<!ENTITY subjectmanager.options.text										"Subject Manager > Paramètres">
+<!ENTITY subjectmanager.options.window.text									"Subject Manager > Paramètres">
+<!ENTITY subjectmanager.options.window.extra1.text							"Fermer">
+<!ENTITY subjectmanager.options.window.extra2.text							"Réinitialiser">
+<!ENTITY subjectmanager.options.window.tab.help.tooltiptext					"Aide">
+<!ENTITY subjectmanager.options.window.tab1.text							"Liste de sujets">
+<!ENTITY subjectmanager.options.window.tab1.group1.text						"Sujets">
+<!ENTITY subjectmanager.options.window.tab1.add.tooltiptext					"Ajouter un nouveau sujet">
+<!ENTITY subjectmanager.options.window.tab1.modify.tooltiptext				"Modifier le sujet sélectionné">
+<!ENTITY subjectmanager.options.window.tab1.up.tooltiptext					"Monter le sujet sélectionné">
+<!ENTITY subjectmanager.options.window.tab1.down.tooltiptext				"Descendre le sujet sélectionné">
+<!ENTITY subjectmanager.options.window.tab1.sort.tooltiptext				"Trier les sujets par ordre alphabétique">
+<!ENTITY subjectmanager.options.window.tab1.remove.tooltiptext				"Enlever le sujet sélectionné">
+<!ENTITY subjectmanager.options.window.tab1.group4.text						"Lorsqu'un sujet est sélectionné dans la liste">
+<!ENTITY subjectmanager.options.window.tab1.replace.text					"Remplacer le sujet existant">
+<!ENTITY subjectmanager.options.window.tab1.appendbeginning.text			"Ajouter au début du sujet existant">
+<!ENTITY subjectmanager.options.window.tab1.appendbeginningend.text			"Ajouter à la fin du précédent sujet sélectionné">
+<!ENTITY subjectmanager.options.window.tab1.appendend.text					"Ajouter à la fin du sujet existant">
+<!ENTITY subjectmanager.options.window.tab1.appendendbeginning.text			"Ajouter au début du précédent sujet sélectionné">
+<!ENTITY subjectmanager.options.window.tab1.group3.text						"Divers">
+<!ENTITY subjectmanager.options.window.tab1.case.text						"Différencier la casse">
+<!ENTITY subjectmanager.options.window.tab1.advanced.text					"Activer le mode avancé">
+<!ENTITY subjectmanager.options.window.tab1.advanced.tooltiptext			"Dans ce mode : &#37;y insère l'année (4 chiffres), &#37;x insère l'année (2 chiffres), &#37;m insère le mois, &#37;b insère le nom du mois, &#37;d insère le jour, &#37;w insère le nom du jour de la semaine, &#37;h insère les heures (24 heures), &#37;k insère les heures (12 heures), &#37;p insère 'AM'/'PM', &#37;n insère les minutes, &#37;s insère les secondes, &#37;g insère le compteur global, &#37;i insère le compteur individuel, &#37;&#37; insère le caractère '&#37;'">
+<!ENTITY subjectmanager.options.window.tab2.text							"Sujets par défaut">
+<!ENTITY subjectmanager.options.window.tab2.group1.text						"Sujets par défaut">
+<!ENTITY subjectmanager.options.window.tab2.handlesubjectsidentities.text	"Prendre en compte les identités des comptes">
+<!ENTITY subjectmanager.options.window.tab2.account.text					"Compte">
+<!ENTITY subjectmanager.options.window.tab2.defaultsubject.text				"Sujet par défaut">
+<!ENTITY subjectmanager.options.window.tab2.updatedefaultsubj.tooltiptext	"Mettre-à-jour le sujet par défaut">
+<!ENTITY subjectmanager.options.window.tab2.insertifempty.text				"Uniquement si vide">
+<!ENTITY subjectmanager.options.window.tab2.insertifempty.tooltiptext		"Insérer uniquement si le sujet est préalablement vide">
+<!ENTITY subjectmanager.options.window.tab2.insertdefault.text				"Activé">
+<!ENTITY subjectmanager.options.window.tab2.accountkey.text					"Id">
+<!ENTITY subjectmanager.options.window.tab2.accountlabel.text				"Libellé du compte">
+<!ENTITY subjectmanager.options.window.tab2.ifempty.text					"Si vide">
+<!ENTITY subjectmanager.options.window.tab3.text							"Compteurs">
+<!ENTITY subjectmanager.options.window.tab3.group1.text						"Compteur global">
+<!ENTITY subjectmanager.options.window.tab3.countervalue.text				"Valeur du compteur">
+<!ENTITY subjectmanager.options.window.tab3.updatecounter.text				"Mettre à jour lors de">
+<!ENTITY subjectmanager.options.window.tab3.sendingmsg.text					"1: L'envoi du message">
+<!ENTITY subjectmanager.options.window.tab3.savingmsg.text					"2: L'enregistrement du message">
+<!ENTITY subjectmanager.options.window.tab3.updatingindividualcounter.text	"4: La mise à jour de n'importe quel compteur individuel">
+<!ENTITY subjectmanager.options.window.tab3.format.text						"Format">
+<!ENTITY subjectmanager.options.window.tab3.format.tooltiptext				"Préciser le nombre de chiffres pour la longueur du format du compteur, ex.: 2 pour 01, 02, etc. / 3 pour 001, 002, etc.">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.text				"Réinitialiser chaque">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice0			"-">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice1			"1: jour">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice2			"2: semaine">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice3			"3: mois">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice4			"4: année">
+<!ENTITY subjectmanager.options.window.tab3.group2.text						"Compteurs individuels">
+<!ENTITY subjectmanager.options.window.tab3.handlecounteridentities.text	"Prendre en compte les identités des comptes">
+<!ENTITY subjectmanager.options.window.tab3.account.text					"Compte">
+<!ENTITY subjectmanager.options.window.tab3.hdraccountkey.text				"Id">
+<!ENTITY subjectmanager.options.window.tab3.hdraccountlabel.text			"Libellé du compte">
+<!ENTITY subjectmanager.options.window.tab3.hdrcounter.text					"Compteur">
+<!ENTITY subjectmanager.options.window.tab3.hdrupdate.text					"Mise à jour">
+<!ENTITY subjectmanager.options.window.tab3.hdrreset.text					"Réinitialiser">
+<!ENTITY subjectmanager.options.window.tab3.updatevalue.tooltiptext			"Mettre-à-jour la valeur du compteur individuel">
+<!ENTITY subjectmanager.options.window.tab4.text							"Préfixes automatiques">
+<!ENTITY subjectmanager.options.window.tab4.group0.text						"Préfixes automatiques">
+<!ENTITY subjectmanager.options.window.tab4.group1.text						"Inclure la liste de préfixes 'réponse'">
+<!ENTITY subjectmanager.options.window.tab4.replyprefixes.tooltiptext		"Exemple : Re:??R:">
+<!ENTITY subjectmanager.options.window.tab4.group2.text						"Inclure la liste de préfixes 'transfert'">
+<!ENTITY subjectmanager.options.window.tab4.forwardprefixes.tooltiptext		"Exemple : Tr:??T:">
+<!ENTITY subjectmanager.options.window.tab4.group3.text						"Inclure la liste d'autres préfixes">
+<!ENTITY subjectmanager.options.window.tab4.otherprefixes.tooltiptext		"Exemple : Votre dernier message:??Réponse à:">
+<!ENTITY subjectmanager.options.window.tab4.autoprefixesautoremoval.text	"Enlever automatiquement tous les préfixes automatiques">
+<!ENTITY subjectmanager.options.window.tab4.prefixeskeep1.text				"Conserver le premier préfixe automatique">
+<!ENTITY subjectmanager.options.window.tab4.replace1streply.text			"Remplacer le préfixe 'réponse'">
+<!ENTITY subjectmanager.options.window.tab4.replace1stforward.text			"Remplacer le préfixe 'transfert'">
+<!ENTITY subjectmanager.options.window.tab4.replacementprefix.text			"Préfixe de remplacement">
+<!ENTITY subjectmanager.options.window.tab5.text							"Filtres de messages">
+<!ENTITY subjectmanager.options.window.tab5.group1.text						"Filtres">
+<!ENTITY subjectmanager.options.window.tab5.selectallfilters.text			"Activer/Désactiver la prise en charge de tous les filtres">
+<!ENTITY subjectmanager.options.window.tab5.filtersubject.text				"Sujet">
+<!ENTITY subjectmanager.options.window.tab6.text							"Divers">
+<!ENTITY subjectmanager.options.window.tab6.group1.text						"Options du champ 'Sujet :' de la fenêtre de composition de message">
+<!ENTITY subjectmanager.options.window.tab6.subjectautocomplete.text		"Activer l'auto-complétion">
+<!ENTITY subjectmanager.options.window.tab6.subjectautocompcase.text		"Différencier la casse">
+<!ENTITY subjectmanager.options.window.tab6.subjectsbutton.text				"Activer le bouton de sélection d'un sujet">
+<!ENTITY subjectmanager.options.window.tab6.labelreplacement.text			"Remplacer l'étiquette 'Sujet :'">
+<!ENTITY subjectmanager.options.window.tab6.focusemailbody.text				"Sélectionner le corps du message une fois qu'un sujet a été choisi">
+<!ENTITY subjectmanager.options.window.tab6.group2.text						"Outils des sujets">
+<!ENTITY subjectmanager.options.window.tab6.exportsubjects.text				"Exporter les sujets">
+<!ENTITY subjectmanager.options.window.tab6.exportsubjects.tooltiptext		"Exporter les sujets dans un fichier">
+<!ENTITY subjectmanager.options.window.tab6.importsubjects.text				"Importer les sujets">
+<!ENTITY subjectmanager.options.window.tab6.importsubjects.tooltiptext		"Importer les sujets à partir d'un fichier">
+<!ENTITY subjectmanager.options.window.tab6.group3.text						"Aide et support">
+<!ENTITY subjectmanager.options.window.tab6.debugmode.text					"Activer le mode debug (les messages sont logués dans la console d'erreurs)">
+<!ENTITY subjectmanager.options.window.tab6.debugmode2file.text				"Loguer les messages dans un fichier">
+<!ENTITY subjectmanager.options.window.tab6.debugmode2file.tooltiptext		"Sélectionner l'emplacement du fichier de log">
+<!ENTITY subjectmanager.options.window.tab6.reinitautocomplete.text			"Réinitialiser l'auto-complétion">
+<!ENTITY subjectmanager.options.window.tab6.defaults.text					"Réinitialiser aux valeurs par défaut">
+<!ENTITY subjectmanager.options.window.tab6.defaults.tooltiptext			"Nettoyer et réinitialiser tous les paramètres aux valeurs par défaut">
+<!ENTITY subjectmanager.options.window.tab6.exportsettings.text				"Exporter les paramètres">
+<!ENTITY subjectmanager.options.window.tab6.exportsettings.tooltiptext		"Exporter les paramètres dans un fichier">
+<!ENTITY subjectmanager.options.window.tab6.help.text						"Afficher l'aide">
+<!ENTITY subjectmanager.options.window.tab6.contact.text					"Contact :">
+<!ENTITY subjectmanager.options.window.tab6.donation.text					"Contribution :">

@@ -1,0 +1,12 @@
+<!-- fr-FR -->
+<!ENTITY subjectmanager								"Subject Manager">
+<!ENTITY subjectmanager.toolbar.text				"Gestionnaire de sujet">
+<!ENTITY subjectmanager.toolbar.tooltip				"Gérer les sujets">
+<!ENTITY subjectmanager.toolbar.menuitem1.text		"Sujets">
+<!ENTITY subjectmanager.toolbar.menuitem1.tooltip	"Sélectionner un sujet de la liste">
+<!ENTITY subjectmanager.toolbar.menuitem2.text		"Sauvegarder le sujet">
+<!ENTITY subjectmanager.toolbar.menuitem2.tooltip	"Sauvegarder le sujet actuel dans la liste">
+<!ENTITY subjectmanager.toolbar.menuitem3.text		"Enlever les préfixes auto">
+<!ENTITY subjectmanager.toolbar.menuitem3.tooltip	"Enlever tous les préfixes automatiques du sujet actuel">
+<!ENTITY subjectmanager.toolbar.menuitem4.text		"Paramètres">
+<!ENTITY subjectmanager.toolbar.menuitem4.tooltip	"Ouvrir la boîte de dialogue des paramètres">
