@@ -1,0 +1,8 @@
+#debugModeToFileButton {
+	list-style-image: url("chrome://SubjectManager/skin/icon_save.png");
+	-moz-image-region: rect(0px 11px 11px 0px);
+}
+#debugModeToFileButton[disabled] {
+	list-style-image: url("chrome://SubjectManager/skin/icon_save.png");
+	-moz-image-region: rect(12px 11px 23px 0px);
+}
