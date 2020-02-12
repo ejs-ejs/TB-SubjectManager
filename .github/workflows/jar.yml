@@ -13,4 +13,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Create an updated chrome/SubjectManager.jar file
-      run: zip chrome/SubjectManager.jar chrome/content chrome/locale chrome/skin 
+      run: zip chrome/SubjectManager.jar chrome/content/* chrome/locale/* chrome/skin/* 
