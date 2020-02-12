@@ -1,0 +1,12 @@
+<!-- en-US -->
+<!ENTITY subjectmanager								"Subject Manager">
+<!ENTITY subjectmanager.toolbar.text				"Subject Manager">
+<!ENTITY subjectmanager.toolbar.tooltip				"Manage subjects">
+<!ENTITY subjectmanager.toolbar.menuitem1.text		"Subjects">
+<!ENTITY subjectmanager.toolbar.menuitem1.tooltip	"Pick a subject from the list">
+<!ENTITY subjectmanager.toolbar.menuitem2.text		"Save subject">
+<!ENTITY subjectmanager.toolbar.menuitem2.tooltip	"Save current subject into the list">
+<!ENTITY subjectmanager.toolbar.menuitem3.text		"Remove auto prefixes">
+<!ENTITY subjectmanager.toolbar.menuitem3.tooltip	"Remove all automatic prefixes of current subject">
+<!ENTITY subjectmanager.toolbar.menuitem4.text		"Settings">
+<!ENTITY subjectmanager.toolbar.menuitem4.tooltip	"Open settings dialog">
