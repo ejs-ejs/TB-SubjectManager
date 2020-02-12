@@ -2,11 +2,11 @@
 <?xml-stylesheet type="text/css" href="chrome://global/skin/"?>
 <?xml-stylesheet type="text/css" href="chrome://messenger/skin/preferences/preferences.css"?>
 <?xml-stylesheet type="text/css" href="chrome://SubjectManager/skin/options.css" ?>
-<!DOCTYPE dialog SYSTEM "chrome://SubjectManager/locale/options.dtd">
+<!DOCTYPE dialog SYSTEM "chrome://locale/options.dtd">
 
 <!-- Cancelling a dialog is the only way to close it under MacOS -->
 
-<dialog   id="subjectManagerPrefs"
+<dialog id="subjectManagerPrefs"
 			title="&subjectmanager.options.text;"
 			buttons="extra1,extra2,accept"
 			defaultButton="extra1"
