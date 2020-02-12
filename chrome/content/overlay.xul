@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://SubjectManager/skin/SubjectManager.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://SubjectManager/locale/SubjectManager.dtd">
+
+<overlay id="subjectManagerOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://SubjectManager/content/SubjectManager0.js" />
+	<script type="application/x-javascript" src="chrome://SubjectManager/content/SubjectManager1.js" />
+
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="subjectManagerStringBundle" src="chrome://SubjectManager/locale/SubjectManager.properties" />
+	</stringbundleset>
+
+	<commandset id="mailCommands">
+		<command	id="subjectManagerOverlayButtonClick"
+					oncommand="window.openDialog('chrome://SubjectManager/content/options.xul', '', 'chrome,titlebar,toolbar,centerscreen,modal,dialog=yes', 4);"
+					allowevents="true" />
+	</commandset>
+
+	<toolbarpalette id="MailToolbarPalette">
+		<toolbarbutton	id="subjectManagerOverlayButton"
+						class="toolbarbutton-1"
+						label="&subjectmanager.toolbar.text;"
+						tooltiptext="&subjectmanager.toolbar.tooltip;"
+						command="subjectManagerOverlayButtonClick"
+						allowevents="true" />
+	</toolbarpalette>
+
+</overlay>
