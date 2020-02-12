@@ -1,0 +1,16 @@
+name: JAR
+
+on: 
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Create an updated chrome\SubjectManager.jar file
+      run: zip chrome\SubjectManager.jar chrome\content chrome\locale chrome\skin 
