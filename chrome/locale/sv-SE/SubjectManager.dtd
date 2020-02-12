@@ -1,0 +1,12 @@
+<!-- sv-SE -->
+<!ENTITY subjectmanager								"Subject Manager">
+<!ENTITY subjectmanager.toolbar.text				"Ämneshanteraren">
+<!ENTITY subjectmanager.toolbar.tooltip				"Hantera ämnen">
+<!ENTITY subjectmanager.toolbar.menuitem1.text		"Ämnen">
+<!ENTITY subjectmanager.toolbar.menuitem1.tooltip	"Välj ett ämne ur listan">
+<!ENTITY subjectmanager.toolbar.menuitem2.text		"Spara ämne">
+<!ENTITY subjectmanager.toolbar.menuitem2.tooltip	"Spara aktuellt ämne i listan">
+<!ENTITY subjectmanager.toolbar.menuitem3.text		"Ta bort automatiska prefix">
+<!ENTITY subjectmanager.toolbar.menuitem3.tooltip	"Ta bort alla automatiska prefix för aktuellt ämne">
+<!ENTITY subjectmanager.toolbar.menuitem4.text		"Inställningar">
+<!ENTITY subjectmanager.toolbar.menuitem4.tooltip	"Öppna dialogrutan Inställningar">
