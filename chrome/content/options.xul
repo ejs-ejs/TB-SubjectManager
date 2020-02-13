@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/css" href="chrome://global/skin/"?>
 <?xml-stylesheet type="text/css" href="chrome://messenger/skin/preferences/preferences.css"?>
-<?xml-stylesheet type="text/css" href="chrome://subjectmanager/skin/options.css" ?>
-<!DOCTYPE window SYSTEM "chrome://subjectmanager/locale/options.dtd">
+<?xml-stylesheet type="text/css" href="chrome://SubjectManager/skin/options.css" ?>
+<!DOCTYPE window SYSTEM "chrome://SubjectManager/locale/options.dtd">
 
 <!-- Cancelling a dialog is the only way to close it under MacOS -->
 
