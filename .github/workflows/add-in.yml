@@ -5,6 +5,7 @@ on:
       branches:    
             - noJAR
 
+
 env:
    ADDIN_NAME: Subject_manager
    MAJOR: 1
