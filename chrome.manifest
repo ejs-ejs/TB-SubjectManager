@@ -1,13 +1,13 @@
-content subjectmanager jar:chrome/SubjectManager.jar!/content/
+content subjectmanager chrome://SubjectManager/content/
 overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://SubjectManager/content/composer_overlay.xul
 overlay chrome://messenger/content/messenger.xul chrome://SubjectManager/content/overlay.xul
 
-locale subjectmanager en-US jar:chrome/SubjectManager.jar!/locale/en-US/
-locale subjectmanager fr-FR jar:chrome/SubjectManager.jar!/locale/fr-FR/
-locale subjectmanager ru-RU jar:chrome/SubjectManager.jar!/locale/ru-RU/
-locale subjectmanager sv-SE jar:chrome/SubjectManager.jar!/locale/sv-SE/
-locale subjectmanager lt-LT jar:chrome/SubjectManager.jar!/locale/lt-LT/
-skin subjectmanager classic/1.0 jar:chrome/SubjectManager.jar!/skin/classic/
+locale subjectmanager en-US chrome://SubjectManager/locale/en-US/
+locale subjectmanager fr-FR chrome://SubjectManager/locale/fr-FR/
+locale subjectmanager ru-RU chrome://SubjectManager/locale/ru-RU/
+locale subjectmanager sv-SE chrome://SubjectManager/locale/sv-SE/
+locale subjectmanager lt-LT chrome://SubjectManager/locale/lt-LT/
+skin subjectmanager classic/1.0 chrome://SubjectManager/skin/classic/
 
 style chrome://messenger/content/messengercompose/messengercompose.xul chrome://SubjectManager/skin/SubjectManager.css
 
