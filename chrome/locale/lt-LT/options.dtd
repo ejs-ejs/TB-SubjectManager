@@ -1,17 +1,17 @@
 <!-- lt-LT -->
 <!ENTITY subjectmanager.options.text										"Subject Manager > Nuostatos">
 <!ENTITY subjectmanager.options.window.text									"Subject Manager > Nuostatos">
-<!ENTITY subjectmanager.options.window.extra1.text							"Uþverti">
+<!ENTITY subjectmanager.options.window.extra1.text							"UÅ¾verti">
 <!ENTITY subjectmanager.options.window.extra2.text							"Atstatyti">
 <!ENTITY subjectmanager.options.window.tab.help.tooltiptext					"Pagalba">
-<!ENTITY subjectmanager.options.window.tab1.text							"Temø sàraðas">
+<!ENTITY subjectmanager.options.window.tab1.text							"TemÅ³ saraÅ¡as">
 <!ENTITY subjectmanager.options.window.tab1.group1.text						"Temos">
 <!ENTITY subjectmanager.options.window.tab1.add.tooltiptext					"Nauja tema">
-<!ENTITY subjectmanager.options.window.tab1.modify.tooltiptext				"Redaguoti pasirinktà temà">
+<!ENTITY subjectmanager.options.window.tab1.modify.tooltiptext				"Redaguoti pasirinktÄ… temÄ…">
 <!ENTITY subjectmanager.options.window.tab1.up.tooltiptext					"Put selected subject up">
 <!ENTITY subjectmanager.options.window.tab1.down.tooltiptext				"Put selected subject down">
-<!ENTITY subjectmanager.options.window.tab1.sort.tooltiptext				"Rikiuoti pagal abëcëlæ">
-<!ENTITY subjectmanager.options.window.tab1.remove.tooltiptext				"Paðalinti ðià temà">
+<!ENTITY subjectmanager.options.window.tab1.sort.tooltiptext				"Rikiuoti pagal abÄ—cÄ—lÄ™">
+<!ENTITY subjectmanager.options.window.tab1.remove.tooltiptext				"PaÅ¡alinti Å¡iÄ… temÄ…">
 <!ENTITY subjectmanager.options.window.tab1.group4.text						"When a subject is picked from the list">
 <!ENTITY subjectmanager.options.window.tab1.replace.text					"Replace current subject">
 <!ENTITY subjectmanager.options.window.tab1.appendbeginning.text			"Append to the beginning of current subject">
@@ -30,7 +30,7 @@
 <!ENTITY subjectmanager.options.window.tab2.updatedefaultsubj.tooltiptext	"Update default subject">
 <!ENTITY subjectmanager.options.window.tab2.insertifempty.text				"Only if empty">
 <!ENTITY subjectmanager.options.window.tab2.insertifempty.tooltiptext		"Insert only if subject is previously empty">
-<!ENTITY subjectmanager.options.window.tab2.insertdefault.text				"Ájungta">
+<!ENTITY subjectmanager.options.window.tab2.insertdefault.text				"Ä®jungta">
 <!ENTITY subjectmanager.options.window.tab2.accountkey.text					"Id">
 <!ENTITY subjectmanager.options.window.tab2.accountlabel.text				"Account label">
 <!ENTITY subjectmanager.options.window.tab2.ifempty.text					"If empty">
