@@ -1,8 +1,8 @@
 name: Add-in-noJAR
 
 on: [push]
-branches:    
-      - noJAR
+      branches:    
+            - noJAR
 
 env:
    ADDIN_NAME: Subject_manager
