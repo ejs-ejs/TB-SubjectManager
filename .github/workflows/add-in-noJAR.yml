@@ -1,4 +1,4 @@
-name: Add-in
+name: Add-in-noJAR
 
 on: [push]
 branches:    
