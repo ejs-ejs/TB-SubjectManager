@@ -1,4 +1,4 @@
-name: Add-in-noJAR
+name: Add-in
 
 on:
    push:
