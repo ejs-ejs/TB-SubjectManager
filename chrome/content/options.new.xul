@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
-
-<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
-<?xml-stylesheet href="chrome://SubjectManager/skin/options.css" type="text/css"?>
-
+<?xml-stylesheet type="text/css" href="chrome://global/skin/"?>
 <?xml-stylesheet type="text/css" href="chrome://messenger/skin/preferences/preferences.css"?>
-
-<!DOCTYPE prefwindow SYSTEM "chrome://SubjectManager/locale/options.dtd">
+<?xml-stylesheet type="text/css" href="chrome://SubjectManager/skin/options.css" ?>
+<!DOCTYPE window SYSTEM "chrome://SubjectManager/locale/options.dtd">
 
 <!-- Cancelling a dialog is the only way to close it under MacOS -->
 
-<prefwindow id="subjectManagerPrefs"
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		id="subjectManagerPrefs"
 			title="&subjectmanager.options.text;"
-			buttons="extra1,extra2"
+			buttons="extra1,extra2,accept"
 			defaultButton="extra1"
 			buttonlabelextra1="&subjectmanager.options.window.extra1.text;"
 			buttonlabelextra2="&subjectmanager.options.window.extra2.text;"
@@ -19,9 +17,11 @@
 			ondialogcancel="saveSettings();"
 			ondialogextra1="document.getElementById('subjectManagerPrefs').cancelDialog();"
 			ondialogextra2="resetSettings();"
-			xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+			xmlns:html="http://www.w3.org/1999/xhtml"
+			>
 
-<prefpane id="subjectManagerPane" label="&subjectmanager.options.window.text;">
+	<vbox>
+
 	<tabbox id="subjectManagerTabBox">
 
 		<tabs>
@@ -62,7 +62,7 @@
 												image="chrome://SubjectManager/skin/icon_add.png"
 												tooltiptext="&subjectmanager.options.window.tab1.add.tooltiptext;"
 												style="min-width:10px"
-												oncommand="onClickSubjectAddButton();" />
+												/>
 									</row>
 
 									<spacer style="height:10px;" />
@@ -70,7 +70,7 @@
 									<row>
 										<listbox	id="subjectsListBox"
 													height="100"
-													onselect="onSelectSubject();" />
+													/>
 										<grid flex="1">
 											<rows>
 												<row flex="1" />
@@ -89,19 +89,19 @@
 															image="chrome://SubjectManager/skin/icon_modify.png"
 															tooltiptext="&subjectmanager.options.window.tab1.modify.tooltiptext;"
 															style="min-width:10px;"
-															oncommand="onClickSubjectModifyButton();" />
+															/>
 													<spacer style="height:10px;" />
 													<button id="subjectUpButton"
 															image="chrome://SubjectManager/skin/icon_up.png"
 															tooltiptext="&subjectmanager.options.window.tab1.up.tooltiptext;"
 															style="min-width:10px;"
-															oncommand="onClickSubjectUpButton();" />
+															/>
 													<spacer style="height:10px;" />
 													<button id="subjectDownButton"
 															image="chrome://SubjectManager/skin/icon_down.png"
 															tooltiptext="&subjectmanager.options.window.tab1.down.tooltiptext;"
 															style="min-width:10px;"
-															oncommand="onClickSubjectDownButton();" />
+															/>
 													<spacer style="height:10px;" />
 												</column>
 											</columns>
@@ -136,13 +136,13 @@
 												image="chrome://SubjectManager/skin/icon_sort.png"
 												tooltiptext="&subjectmanager.options.window.tab1.sort.tooltiptext;"
 												style="min-width:10px;"
-												oncommand="onClickSortSubjectsButton();" />
+												/>
 										<spacer />
 										<button	id="subjectRemoveButton"
 												image="chrome://SubjectManager/skin/icon_remove.png"
 												tooltiptext="&subjectmanager.options.window.tab1.remove.tooltiptext;"
 												style="min-width:10px;"
-												oncommand="onClickSubjectRemoveButton();" />
+												/>
 									</row>
 								</rows>
 							</grid>
@@ -151,27 +151,30 @@
 						<groupbox id="subjectsListOptionsGroupBox">
 							<caption label="&subjectmanager.options.window.tab1.group3.text;" />
 							<checkbox	id="subjectsListCaseSensitiveCheckBox"
-										preference="subjectsListCaseSensitive"
-										label="&subjectmanager.options.window.tab1.case.text;" />
+										preference="extensions.SubjectManager.subjectsListCaseSensitive"
+										label="&subjectmanager.options.window.tab1.case.text;" 
+										/>
+										
 							<hbox>
 								<checkbox	id="subjectsAdvancedModeCheckBox"
-											preference="subjectsAdvancedMode"
+											preference="extensions.SubjectManager.subjectsAdvancedMode"
 											label="&subjectmanager.options.window.tab1.advanced.text;"
 											tooltiptext="&subjectmanager.options.window.tab1.advanced.tooltiptext;"
-											oncommand="onClickSubjectsAdvancedModeCheckBox(this.checked);" />
+											/>
 								<button	id="subjectsAdvancedModeHelpButton"
 										label="?"
 										tooltiptext="&subjectmanager.options.window.tab.help.tooltiptext;"
 										style="min-width:5px;"
-										oncommand="onClickSubjectsAdvancedModeHelpButton();" />
+										/>
 							</hbox>
 						</groupbox>
 
 						<groupbox>
 							<caption label="&subjectmanager.options.window.tab1.group4.text;" />
 							<radiogroup	id="subjectPickedRadioGroup"
-										preference="subjectPickedBehaviour"
-										oncommand="onClickSubjectPickedRadioGroup();">
+										preference="extensions.SubjectManager.subjectPickedBehaviour"
+										>
+										
 								<radio	label="&subjectmanager.options.window.tab1.replace.text;"
 										value="0" />
 								<radio	label="&subjectmanager.options.window.tab1.appendbeginning.text;"
@@ -179,16 +182,20 @@
 								<row>
 									<spacer style="width:10px;" />
 									<checkbox	id="appendBeginningEndCheckBox"
-												preference="subjectPickedBeginningEnd"
-												label="&subjectmanager.options.window.tab1.appendbeginningend.text;" />
+												preference="extensions.SubjectManager.subjectPickedBeginningEnd"
+												label="&subjectmanager.options.window.tab1.appendbeginningend.text;" 
+												/>
+												
 								</row>
 								<radio	label="&subjectmanager.options.window.tab1.appendend.text;"
 										value="2" />
 								<row>
 									<spacer style="width:10px;" />
 									<checkbox	id="appendEndBeginningCheckBox"
-												preference="subjectPickedEndBeginning"
-												label="&subjectmanager.options.window.tab1.appendendbeginning.text;" />
+												preference="extensions.SubjectManager.subjectPickedEndBeginning"
+												label="&subjectmanager.options.window.tab1.appendendbeginning.text;" 
+												/>
+												
 								</row>
 							</radiogroup>
 						</groupbox>
@@ -218,16 +225,16 @@
 									<row>
 										<checkbox	id="handleSubjectsIdentitiesCheckBox"
 													label="&subjectmanager.options.window.tab2.handlesubjectsidentities.text;"
-													preference="handleSubjectsIdentities"
-													oncommand="onClickHandleSubjectsIdentitiesCheckBox(this.checked);" />
+													preference="extensions.SubjectManager.handleSubjectsIdentities"
+													/>
+													
 									</row>
 								</rows>
 							</grid>
 
 							<listbox	id="defaultSubjectsListBox"
 										flex="1"
-										onselect="onSelectDefaultSubject();"
-										ondblclick="onSelectDefaultSubject();">
+										>
 								<listhead>
 									<listheader label="&subjectmanager.options.window.tab2.accountkey.text;" />
 									<listheader label="&subjectmanager.options.window.tab2.accountlabel.text;" />
@@ -287,7 +294,7 @@
 												image="chrome://SubjectManager/skin/icon_modify.png"
 												tooltiptext="&subjectmanager.options.window.tab2.updatedefaultsubj.tooltiptext;"
 												style="min-width:10px"
-												oncommand="onClickUpdateDefaultSubjectButton();" />
+												/>
 									</row>
 								</rows>
 							</grid>
@@ -348,7 +355,7 @@
 										label="?"
 										tooltiptext="&subjectmanager.options.window.tab.help.tooltiptext;"
 										style="min-width:5px;"
-										oncommand="onClickCounterFormatHelpButton(this.id);" />
+										/>
 								<label	value="&subjectmanager.options.window.tab3.resetcounter.text;"
 										control="globalCounterResetMenuList" />
 								<menulist	id="globalCounterResetMenuList"
@@ -375,16 +382,15 @@
 									<row>
 										<checkbox	id="handleCounterIdentitiesCheckBox"
 													label="&subjectmanager.options.window.tab3.handlecounteridentities.text;"
-													preference="handleCounterIdentities"
-													oncommand="onClickHandleCounterIdentitiesCheckBox(this.checked);" />
+													preference="extensions.SubjectManager.handleCounterIdentities"
+													/>
 									</row>
 								</rows>
 							</grid>
 
 							<listbox	id="individualCountersListBox"
 										height="200"
-										onselect="onSelectIndividualCounter();"
-										ondblclick="onSelectIndividualCounter();">
+										>
 								<listhead>
 									<listheader label="&subjectmanager.options.window.tab3.hdraccountkey.text;" />
 									<listheader label="&subjectmanager.options.window.tab3.hdraccountlabel.text;" />
@@ -458,7 +464,7 @@
 												label="?"
 												tooltiptext="&subjectmanager.options.window.tab.help.tooltiptext;"
 												style="min-width:5px;"
-												oncommand="onClickCounterFormatHelpButton(this.id);" />
+												/>
 										<label	id="individualCounterResetLabel"
 												value="&subjectmanager.options.window.tab3.resetcounter.text;"
 												control="individualCounterResetMenuList" />
@@ -477,7 +483,7 @@
 												image="chrome://SubjectManager/skin/icon_modify.png"
 												tooltiptext="&subjectmanager.options.window.tab3.updatevalue.tooltiptext;"
 												style="min-width:10px"
-												oncommand="onClickUpdateIndividualCounterButton();" />
+												/>
 									</row>
 								</rows>
 							</grid>
@@ -499,17 +505,18 @@
 							<caption label="&subjectmanager.options.window.tab4.group0.text;" />
 
 							<checkbox	id="autoPrefixesAutoRemovalCheckBox"
-										preference="removeAutoPrefixes"
-										label="&subjectmanager.options.window.tab4.autoprefixesautoremoval.text;" />
+										preference="extensions.SubjectManager.removeAutoPrefixes"
+										label="&subjectmanager.options.window.tab4.autoprefixesautoremoval.text;" 
+										/>
 
 							<spacer style="height:5px;" />
 
 							<groupbox>
 								<caption>
 									<checkbox	id="replyPrefixesCheckBox"
-												preference="includeReplyPrefixes"
+												preference="extensions.SubjectManager.includeReplyPrefixes"
 												label="&subjectmanager.options.window.tab4.group1.text;"
-												oncommand="onClickReplyPrefixesCheckBox(this.checked);" />
+												/>
 								</caption>
 
 								<grid flex="1">
@@ -526,7 +533,7 @@
 													label="?"
 													tooltiptext="&subjectmanager.options.window.tab.help.tooltiptext;"
 													style="min-width:5px;"
-													oncommand="prefixesHelpButton(this.id);" />
+													/>
 										</row>
 									</rows>
 								</grid>
@@ -535,9 +542,9 @@
 							<groupbox>
 								<caption>
 									<checkbox	id="forwardPrefixesCheckBox"
-												preference="includeForwardPrefixes"
+												preference="extensions.SubjectManager.includeForwardPrefixes"
 												label="&subjectmanager.options.window.tab4.group2.text;"
-												oncommand="onClickForwardPrefixesCheckBox(this.checked);" />
+												/>
 								</caption>
 
 								<grid flex="1">
@@ -554,7 +561,7 @@
 													label="?"
 													tooltiptext="&subjectmanager.options.window.tab.help.tooltiptext;"
 													style="min-width:5px;"
-													oncommand="prefixesHelpButton(this.id);" />
+													/>
 										</row>
 									</rows>
 								</grid>
@@ -563,9 +570,9 @@
 							<groupbox>
 								<caption>
 									<checkbox	id="otherPrefixesListCheckBox"
-												preference="includeOtherPrefixes"
+												preference="extensions.SubjectManager.includeOtherPrefixes"
 												label="&subjectmanager.options.window.tab4.group3.text;"
-												oncommand="onClickOtherPrefixesCheckBox(this.checked);" />
+												/>
 								</caption>
 
 								<grid flex="1">
@@ -582,7 +589,7 @@
 													label="?"
 													tooltiptext="&subjectmanager.options.window.tab.help.tooltiptext;"
 													style="min-width:5px;"
-													oncommand="prefixesHelpButton(this.id);" />
+													/>
 										</row>
 									</rows>
 								</grid>
@@ -593,17 +600,17 @@
 							<groupbox>
 								<caption>
 									<checkbox	id="keep1stPrefixCheckBox"
-												preference="keep1stPrefix"
+												preference="extensions.SubjectManager.keep1stPrefix"
 												label="&subjectmanager.options.window.tab4.prefixeskeep1.text;"
-												oncommand="onClickKeep1stPrefixCheckBox(this.checked);" />
+												/>
 								</caption>
 
 								<groupbox>
 									<caption>
 										<checkbox	id="1stReplyPrefixReplacementCheckBox"
-													preference="replace1stReplyPrefix"
+													preference="extensions.SubjectManager.replace1stReplyPrefix"
 													label="&subjectmanager.options.window.tab4.replace1streply.text;"
-													oncommand="onClick1stReplyPrefixReplacementCheckBox(this.checked);" />
+													/>
 									</caption>
 
 									<grid flex="1">
@@ -626,9 +633,9 @@
 								<groupbox>
 									<caption>
 										<checkbox	id="1stForwardPrefixReplacementCheckBox"
-													preference="replace1stForwardPrefix"
+													preference="extensions.SubjectManager.replace1stForwardPrefix"
 													label="&subjectmanager.options.window.tab4.replace1stforward.text;"
-													oncommand="onClick1stForwardPrefixReplacementCheckBox(this.checked);" />
+													/>
 									</caption>
 
 									<grid flex="1">
@@ -656,7 +663,7 @@
 										label="?"
 										tooltiptext="&subjectmanager.options.window.tab.help.tooltiptext;"
 										style="min-width:5px;"
-										oncommand="prefixesInfoHelpButton();" />
+										/>
 							</vbox>
 
 						</groupbox>
@@ -685,12 +692,12 @@
 									<row>
 										<checkbox	id="selectAllFiltersCheckBox"
 													label="&subjectmanager.options.window.tab5.selectallfilters.text;"
-													oncommand="onClickSelectAllFiltersCheckBox(this.checked);" />
+													/>
 										<button	id="allFiltersButton"
 												image="chrome://SubjectManager/skin/icon_filter.png"
 												tooltiptext="&subjectmanager.options.window.tab5.text;"
 												style="min-width:10px;"
-												oncommand="onClickAllFiltersButton();" />
+												/>
 									</row>
 								</rows>
 							</grid>
@@ -747,7 +754,7 @@
 										label="?"
 										tooltiptext="&subjectmanager.options.window.tab.help.tooltiptext;"
 										style="min-width:5px;"
-										oncommand="filtersSubjectsInfoHelpButton();" />
+										/>
 							</vbox>
 						</groupbox>
 					</rows>
@@ -767,28 +774,29 @@
 						<groupbox id="subjectBoxGroupBox">
 							<caption label="&subjectmanager.options.window.tab6.group1.text;" />
 							<checkbox	id="subjectBoxAutoCompleteEnabledCheckBox"
-										preference="subjectBoxAutoCompleteEnabled"
+										preference="extensions.SubjectManager.subjectBoxAutoCompleteEnabled"
 										label="&subjectmanager.options.window.tab6.subjectautocomplete.text;"
-										oncommand="onClickSubjectBoxAutoCompleteEnabledCheckBox(this.checked);" />
+										/>
 							<row>
 								<spacer style="width:10px;" />
 								<checkbox	id="subjectBoxAutoCompleteCaseSensitiveCheckBox"
-											preference="subjectBoxAutoCompleteCaseSensitive"
+											preference="extensions.SubjectManager.subjectBoxAutoCompleteCaseSensitive"
 											label="&subjectmanager.options.window.tab6.subjectautocompcase.text;" />
 							</row>
 							<checkbox	id="subjectBoxButtonEnabledCheckBox"
-										preference="subjectBoxButtonEnabled"
+										preference="extensions.SubjectManager.subjectBoxButtonEnabled"
 										label="&subjectmanager.options.window.tab6.subjectsbutton.text;"
-										oncommand="onClickSubjectBoxButtonEnabledCheckBox(this.checked);" />
+										/>
 							<row>
 								<spacer style="width:10px;" />
 								<checkbox	id="subjectBoxButtonLabelReplacementCheckBox"
-											preference="subjectBoxButtonLabelReplaced"
+											preference="extensions.SubjectManager.subjectBoxButtonLabelReplaced"
 											label="&subjectmanager.options.window.tab6.labelreplacement.text;" />
 							</row>
 							<checkbox	id="focusEmailBodyOnceSubjectPickedCheckBox"
-										preference="focusEmailBodyOnceSubjectPicked"
-										label="&subjectmanager.options.window.tab6.focusemailbody.text;" />
+										preference="extensions.SubjectManager.focusEmailBodyOnceSubjectPicked"
+										label="&subjectmanager.options.window.tab6.focusemailbody.text;" 
+										/>
 						</groupbox>
 
 						<groupbox>
@@ -803,11 +811,11 @@
 										<button id="exportProfilesButton"
 												label="&subjectmanager.options.window.tab6.exportsubjects.text;"
 												tooltiptext="&subjectmanager.options.window.tab6.exportsubjects.tooltiptext;"
-												oncommand="onClickExportSubjectsButton();" />
+												/>
 										<button id="importProfilesButton"
 												label="&subjectmanager.options.window.tab6.importsubjects.text;"
 												tooltiptext="&subjectmanager.options.window.tab6.importsubjects.tooltiptext;"
-												oncommand="onClickImportSubjectsButton();" />
+												/>
 									</hbox>
 								</rows>
 							</grid>
@@ -826,38 +834,42 @@
 
 								<rows>
 									<checkbox	id="debugModeCheckBox"
-												preference="debugMode"
+												preference="extensions.SubjectManager.debugMode"
 												label="&subjectmanager.options.window.tab6.debugmode.text;"
-												oncommand="onClickDebugModeCheckBox(this.checked);" />
+												/>
+												
 									<row>
 										<spacer style="width:15px;" />
 										<checkbox	id="debugModeToFileCheckBox"
-													preference="debugModeToFile"
+													preference="extensions.SubjectManager.debugModeToFile"
 													label="&subjectmanager.options.window.tab6.debugmode2file.text;"
-													oncommand="onClickDebugModeToFileCheckBox(this.checked);" />
+													/>
 										<textbox	id="debugModeToFileTextBox"
 													readonly="true" />
-										<button	id="debugModeToFileButton"
+													
+										<button	id="debugModeToFile" 
+												label="debugModeToFileButton"
+										        preference="extensions.SubjectManager.debugModeToFile" 
 												style="min-width:5px;"
 												tooltiptext="&subjectmanager.options.window.tab6.debugmode2file.tooltiptext;"
-												oncommand="onClickDebugModeToFileButton();" />
+												/>
 									</row>
 									<spacer style="height:5px;" />
 									<hbox>
 										<button id="resetDefaultsButton"
 												label="&subjectmanager.options.window.tab6.defaults.text;"
 												tooltiptext="&subjectmanager.options.window.tab6.defaults.tooltiptext;"
-												oncommand="onClickResetDefaultsButton();" />
+												/>
 										<button id="exportSettingsButton"
 												label="&subjectmanager.options.window.tab6.exportsettings.text;"
 												tooltiptext="&subjectmanager.options.window.tab6.exportsettings.tooltiptext;"
-												oncommand="onClickExportSettingsButton();" />
+												/>
 									</hbox>
 									<spacer style="height:5px;" />
 									<hbox>
 										<button id="reInitAutoCompletionButton"
 												label="&subjectmanager.options.window.tab6.reinitautocomplete.text;"
-												oncommand="onClickReInitAutoCompleteButton();" />
+												/>
 									</hbox>
 									<spacer style="height:10px;" />
 									<hbox align="center">
@@ -882,54 +894,20 @@
 
 		</tabpanels>
 	</tabbox>
-</prefpane>
 
-<preferences>
-	<preference id="subjectsList" name="extensions.SubjectManager.subjectsList" type="string" instantApply="true" />
-	<preference id="subjectsListSeparator" name="extensions.SubjectManager.subjectsListSeparator" type="string" />
-	<preference id="subjectPickedBehaviour" name="extensions.SubjectManager.subjectPickedBehaviour" type="int" instantApply="true" />
-	<preference id="subjectPickedBeginningEnd" name="extensions.SubjectManager.subjectPickedBeginningEnd" type="bool" instantApply="true" />
-	<preference id="subjectPickedEndBeginning" name="extensions.SubjectManager.subjectPickedEndBeginning" type="bool" instantApply="true" />
-	<preference id="subjectsListCaseSensitive" name="extensions.SubjectManager.subjectsListCaseSensitive" type="bool" instantApply="true" />
-	<preference id="subjectsAdvancedMode" name="extensions.SubjectManager.subjectsAdvancedMode" type="bool" instantApply="true" />
-	<preference id="handleSubjectsIdentities" name="extensions.SubjectManager.handleSubjectsIdentities" type="bool" instantApply="true" />
-	<preference id="defaultSubjects" name="extensions.SubjectManager.defaultSubjects" type="string" instantApply="true" />
-	<preference id="globalCounterSettings" name="extensions.SubjectManager.globalCounterSettings" type="string" instantApply="true" />
-	<preference id="handleCounterIdentities" name="extensions.SubjectManager.handleCounterIdentities" type="bool" instantApply="true" />
-	<preference id="individualCountersSettings" name="extensions.SubjectManager.individualCountersSettings" type="string" instantApply="true" />
-	<preference id="includeReplyPrefixes" name="extensions.SubjectManager.includeReplyPrefixes" type="bool" instantApply="true" />
-	<preference id="replyPrefixesList" name="extensions.SubjectManager.replyPrefixesList" type="string" instantApply="true" />
-	<preference id="includeForwardPrefixes" name="extensions.SubjectManager.includeForwardPrefixes" type="bool" instantApply="true" />
-	<preference id="forwardPrefixesList" name="extensions.SubjectManager.forwardPrefixesList" type="string" instantApply="true" />
-	<preference id="includeOtherPrefixes" name="extensions.SubjectManager.includeOtherPrefixes" type="bool" instantApply="true" />
-	<preference id="otherPrefixesList" name="extensions.SubjectManager.otherPrefixesList" type="string" instantApply="true" />
-	<preference id="removeAutoPrefixes" name="extensions.SubjectManager.removeAutoPrefixes" type="bool" instantApply="true" />
-	<preference id="keep1stPrefix" name="extensions.SubjectManager.keep1stPrefix" type="bool" instantApply="true" />
-	<preference id="replace1stReplyPrefix" name="extensions.SubjectManager.replace1stReplyPrefix" type="bool" instantApply="true" />
-	<preference id="replyReplacementPrefix" name="extensions.SubjectManager.replyReplacementPrefix" type="string" instantApply="true" />
-	<preference id="replace1stForwardPrefix" name="extensions.SubjectManager.replace1stForwardPrefix" type="bool" instantApply="true" />
-	<preference id="forwardReplacementPrefix" name="extensions.SubjectManager.forwardReplacementPrefix" type="string" instantApply="true" />
-	<preference id="filterSubjectsSettings" name="extensions.SubjectManager.filterSubjectsSettings" type="string" instantApply="true" />
-	<preference id="subjectBoxAutoCompleteEnabled" name="extensions.SubjectManager.subjectBoxAutoCompleteEnabled" type="bool" instantApply="true" />
-	<preference id="subjectBoxAutoCompleteCaseSensitive" name="extensions.SubjectManager.subjectBoxAutoCompleteCaseSensitive" type="bool" instantApply="true" />
-	<preference id="subjectBoxButtonEnabled" name="extensions.SubjectManager.subjectBoxButtonEnabled" type="bool" instantApply="true" />
-	<preference id="subjectBoxButtonLabelReplaced" name="extensions.SubjectManager.subjectBoxButtonLabelReplaced" type="bool" instantApply="true" />
-	<preference id="focusEmailBodyOnceSubjectPicked" name="extensions.SubjectManager.focusEmailBodyOnceSubjectPicked" type="bool" instantApply="true" />
-	<preference id="debugMode" name="extensions.SubjectManager.debugMode" type="bool" instantApply="true" />
-	<preference id="debugModeToFile" name="extensions.SubjectManager.debugModeToFile" type="bool" instantApply="true" />
-	<preference id="debugFileName" name="extensions.SubjectManager.debugFileName" type="string" instantApply="true" />
 
-	<preference id="subjectsListChanged" name="extensions.SubjectManager.subjectsListChanged" type="bool" instantApply="true" />
-</preferences>
+
+</vbox>  
 
 <script type="application/javascript" src="chrome://SubjectManager/content/SubjectManager0.js" />
 <script type="application/javascript" src="chrome://SubjectManager/content/options.js" />
 
-<stringbundleset id="stringbundleset">
-	<stringbundle id="subjectManagerOptionsStringBundle" src="chrome://SubjectManager/locale/options.properties" />
-	<stringbundle id="subjectManagerStringBundle" src="chrome://SubjectManager/locale/SubjectManager.properties" />
-</stringbundleset>
+<script type="application/javascript" src="chrome://global/content/preferencesBindings.js" />
+<script type="application/javascript" src="chrome://SubjectManager/content/preferences.js" />
+
 
 <commandset id="subjectManagerOptionsCmds" />
 
-</prefwindow>
+</window>
+
+
