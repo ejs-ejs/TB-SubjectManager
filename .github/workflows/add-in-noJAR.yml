@@ -2,7 +2,7 @@ name: Add-in
 
 on: [push]
 branches:    
-      - master
+      - noJAR
 
 env:
    ADDIN_NAME: Subject_manager
