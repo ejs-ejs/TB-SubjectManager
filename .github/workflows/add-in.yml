@@ -1,9 +1,11 @@
-name: Add-in
+name: Add-in-noJAR
 
-on: 
-  push:
-    branches:
-    - master
+on:
+   push:
+      branches:    
+            - noJAR
+
+
 env:
    ADDIN_NAME: Subject_manager
    MAJOR: 1
@@ -19,7 +21,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Make an Thunderbird add-in
       run: |
-        zip -r $ADDIN_NAME_$MAJOR.$MINOR-$APP.xpi chrome/SubjectManager.jar components/* defaults/* chrome.manifest manifest.json
+        zip -r ${ADDIN_NAME}_$MAJOR.$MINOR-$APP-noJAR.xpi chrome/content/* chrome/locale/* chrome/skin/* components/* defaults/* chrome.manifest manifest.json
     - name: Commit file
       run: |
         git config --local user.email "action@github.com"
@@ -28,6 +30,6 @@ jobs:
         git add $ADDIN_NAME_$MAJOR.$MINOR-$APP.xpi
         git commit -m "$ADDIN_NAME_$MAJOR.$MINOR-$APP.xpi created" -a
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@noJAR
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
