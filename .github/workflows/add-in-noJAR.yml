@@ -19,7 +19,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Make an Thunderbird add-in
       run: |
-        zip -r $ADDIN_NAME_$MAJOR.$MINOR-$APP.xpi chrome/SubjectManager.jar components/* defaults/* chrome.manifest manifest.json
+        zip -r ${ADDIN_NAME}_$MAJOR.$MINOR-$APP-noJAR.xpi chrome/content/* chrome/locale/* chrome/skin/* components/* defaults/* chrome.manifest manifest.json
     - name: Commit file
       run: |
         git config --local user.email "action@github.com"
