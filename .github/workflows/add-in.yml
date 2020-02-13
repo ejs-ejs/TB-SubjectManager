@@ -1,6 +1,7 @@
 name: Add-in-noJAR
 
-on: push
+on:
+   push:
       branches:    
             - noJAR
 
