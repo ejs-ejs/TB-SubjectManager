@@ -8,62 +8,62 @@
 <!ENTITY subjectmanager.options.window.tab1.group1.text						"Temos">
 <!ENTITY subjectmanager.options.window.tab1.add.tooltiptext					"Nauja tema">
 <!ENTITY subjectmanager.options.window.tab1.modify.tooltiptext				"Redaguoti pasirinktą temą">
-<!ENTITY subjectmanager.options.window.tab1.up.tooltiptext					"Put selected subject up">
-<!ENTITY subjectmanager.options.window.tab1.down.tooltiptext				"Put selected subject down">
+<!ENTITY subjectmanager.options.window.tab1.up.tooltiptext					"Pakelti temą">
+<!ENTITY subjectmanager.options.window.tab1.down.tooltiptext				"Nuleisti temą">
 <!ENTITY subjectmanager.options.window.tab1.sort.tooltiptext				"Rikiuoti pagal abėcėlę">
 <!ENTITY subjectmanager.options.window.tab1.remove.tooltiptext				"Pašalinti šią temą">
-<!ENTITY subjectmanager.options.window.tab1.group4.text						"When a subject is picked from the list">
-<!ENTITY subjectmanager.options.window.tab1.replace.text					"Replace current subject">
-<!ENTITY subjectmanager.options.window.tab1.appendbeginning.text			"Append to the beginning of current subject">
+<!ENTITY subjectmanager.options.window.tab1.group4.text						"Kai tema pasirenkama iš sarašo ...">
+<!ENTITY subjectmanager.options.window.tab1.replace.text					"Pakeisti pasirinktą temą">
+<!ENTITY subjectmanager.options.window.tab1.appendbeginning.text			"Pridėti laiško temos pradžioje">
 <!ENTITY subjectmanager.options.window.tab1.appendbeginningend.text			"Append to the end of previous picked subject">
-<!ENTITY subjectmanager.options.window.tab1.appendend.text					"Append to the end of current subject">
+<!ENTITY subjectmanager.options.window.tab1.appendend.text					"Pridėti laiško temos pabaigoje">
 <!ENTITY subjectmanager.options.window.tab1.appendendbeginning.text			"Append to the beginning of previous picked subject">
-<!ENTITY subjectmanager.options.window.tab1.group3.text						"Miscellaneous">
-<!ENTITY subjectmanager.options.window.tab1.case.text						"Case sensitive">
-<!ENTITY subjectmanager.options.window.tab1.advanced.text					"Enable advanced mode">
+<!ENTITY subjectmanager.options.window.tab1.group3.text						"Kita">
+<!ENTITY subjectmanager.options.window.tab1.case.text						"Vertinti raidžių registrą">
+<!ENTITY subjectmanager.options.window.tab1.advanced.text					"Patyrusiems naudotojams">
 <!ENTITY subjectmanager.options.window.tab1.advanced.tooltiptext			"In this mode: &#37;y inserts year (4 digits), &#37;x inserts year (2 digits), &#37;m inserts month, &#37;b inserts month name, &#37;d inserts day, &#37;w inserts name of day of the week, &#37;h inserts hours (24-hour clock), &#37;k inserts hours (12-hour clock), &#37;p inserts 'AM'/'PM', &#37;n inserts minutes, &#37;s inserts seconds, &#37;g inserts global counter, &#37;i inserts individual counter, &#37;&#37; inserts character '&#37;'">
-<!ENTITY subjectmanager.options.window.tab2.text							"Default subjects">
-<!ENTITY subjectmanager.options.window.tab2.group1.text						"Default subjects">
+<!ENTITY subjectmanager.options.window.tab2.text							"Temos pagal nutylėjimą">
+<!ENTITY subjectmanager.options.window.tab2.group1.text						"Temos pagal nutylėjimą">
 <!ENTITY subjectmanager.options.window.tab2.handlesubjectsidentities.text	"Handle identities of accounts">
-<!ENTITY subjectmanager.options.window.tab2.account.text					"Account">
-<!ENTITY subjectmanager.options.window.tab2.defaultsubject.text				"Default subject">
+<!ENTITY subjectmanager.options.window.tab2.account.text					"Paskyra">
+<!ENTITY subjectmanager.options.window.tab2.defaultsubject.text				"Tema pagal nutylėjimą">
 <!ENTITY subjectmanager.options.window.tab2.updatedefaultsubj.tooltiptext	"Update default subject">
-<!ENTITY subjectmanager.options.window.tab2.insertifempty.text				"Only if empty">
+<!ENTITY subjectmanager.options.window.tab2.insertifempty.text				"Jei tusčias">
 <!ENTITY subjectmanager.options.window.tab2.insertifempty.tooltiptext		"Insert only if subject is previously empty">
 <!ENTITY subjectmanager.options.window.tab2.insertdefault.text				"Įjungta">
 <!ENTITY subjectmanager.options.window.tab2.accountkey.text					"Id">
-<!ENTITY subjectmanager.options.window.tab2.accountlabel.text				"Account label">
-<!ENTITY subjectmanager.options.window.tab2.ifempty.text					"If empty">
+<!ENTITY subjectmanager.options.window.tab2.accountlabel.text				"Paskyros žyma">
+<!ENTITY subjectmanager.options.window.tab2.ifempty.text					"kai tuščia">
 <!ENTITY subjectmanager.options.window.tab3.text							"Kiekiai">
-<!ENTITY subjectmanager.options.window.tab3.group1.text						"Global counter">
-<!ENTITY subjectmanager.options.window.tab3.countervalue.text				"Counter value">
-<!ENTITY subjectmanager.options.window.tab3.updatecounter.text				"Update counter when">
-<!ENTITY subjectmanager.options.window.tab3.sendingmsg.text					"1: Sending message">
-<!ENTITY subjectmanager.options.window.tab3.savingmsg.text					"2: Saving message">
-<!ENTITY subjectmanager.options.window.tab3.updatingindividualcounter.text	"3: Updating any individual counter">
-<!ENTITY subjectmanager.options.window.tab3.format.text						"Format">
-<!ENTITY subjectmanager.options.window.tab3.format.tooltiptext				"Specify count of digits for counter format length, e.g.: 2 for 01, 02, etc. / 3 for 001, 002, etc.">
-<!ENTITY subjectmanager.options.window.tab3.resetcounter.text				"Reset every">
+<!ENTITY subjectmanager.options.window.tab3.group1.text						"Globalus skaitiklis">
+<!ENTITY subjectmanager.options.window.tab3.countervalue.text				"Skaitiklio vertė">
+<!ENTITY subjectmanager.options.window.tab3.updatecounter.text				"Atnaujinti skaitiklį kai">
+<!ENTITY subjectmanager.options.window.tab3.sendingmsg.text					"1: pranešimas išsiunčiamas">
+<!ENTITY subjectmanager.options.window.tab3.savingmsg.text					"2: pranešimas išsaugomas">
+<!ENTITY subjectmanager.options.window.tab3.updatingindividualcounter.text	"3: atnaujinu savo skaitikli">
+<!ENTITY subjectmanager.options.window.tab3.format.text						"Formatas">
+<!ENTITY subjectmanager.options.window.tab3.format.tooltiptext				"Skaitmenų kiekis skaitikliui, pvz.: 2 reiškia 01, 02, it t.t. / 3 reiškia 001, 002, ir t.t.">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.text				"Apnulinti kas">
 <!ENTITY subjectmanager.options.window.tab3.resetcounter.choice0			"-">
-<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice1			"1: day">
-<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice2			"2: week">
-<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice3			"3: month">
-<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice4			"4: year">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice1			"1: dieną">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice2			"2: savaitę">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice3			"3: mėnesį">
+<!ENTITY subjectmanager.options.window.tab3.resetcounter.choice4			"4: metus">
 <!ENTITY subjectmanager.options.window.tab3.group2.text						"Individual counters">
 <!ENTITY subjectmanager.options.window.tab3.handlecounteridentities.text	"Handle identities of accounts">
 <!ENTITY subjectmanager.options.window.tab3.account.text					"Account">
 <!ENTITY subjectmanager.options.window.tab3.hdraccountkey.text				"Id">
-<!ENTITY subjectmanager.options.window.tab3.hdraccountlabel.text			"Account label">
-<!ENTITY subjectmanager.options.window.tab3.hdrcounter.text					"Counter">
-<!ENTITY subjectmanager.options.window.tab3.hdrupdate.text					"Update">
-<!ENTITY subjectmanager.options.window.tab3.hdrreset.text					"Reset">
+<!ENTITY subjectmanager.options.window.tab3.hdraccountlabel.text			"Paskyros žyma">
+<!ENTITY subjectmanager.options.window.tab3.hdrcounter.text					"Skaitiklis">
+<!ENTITY subjectmanager.options.window.tab3.hdrupdate.text					"Atnaujinti">
+<!ENTITY subjectmanager.options.window.tab3.hdrreset.text					"Apnulinti">
 <!ENTITY subjectmanager.options.window.tab3.updatevalue.tooltiptext			"Update individual counter value">
-<!ENTITY subjectmanager.options.window.tab4.text							"Automatic prefixes">
-<!ENTITY subjectmanager.options.window.tab4.group0.text						"Automatic prefixes">
+<!ENTITY subjectmanager.options.window.tab4.text							"Automatiniai priešdėliai">
+<!ENTITY subjectmanager.options.window.tab4.group0.text						"Automatiniai priešdėliai">
 <!ENTITY subjectmanager.options.window.tab4.group1.text						"Include 'reply' prefixes list">
-<!ENTITY subjectmanager.options.window.tab4.replyprefixes.tooltiptext		"Example: Re:??R:">
+<!ENTITY subjectmanager.options.window.tab4.replyprefixes.tooltiptext		"Pvz: Re:??R:">
 <!ENTITY subjectmanager.options.window.tab4.group2.text						"Include 'forward' prefixes list">
-<!ENTITY subjectmanager.options.window.tab4.forwardprefixes.tooltiptext		"Example: Fwd:??F:">
+<!ENTITY subjectmanager.options.window.tab4.forwardprefixes.tooltiptext		"Pvz: Fwd:??F:">
 <!ENTITY subjectmanager.options.window.tab4.group3.text						"Include other prefixes list">
 <!ENTITY subjectmanager.options.window.tab4.otherprefixes.tooltiptext		"Example: Your last mail:??Answer to:">
 <!ENTITY subjectmanager.options.window.tab4.autoprefixesautoremoval.text	"Remove automatically all automatic prefixes">
@@ -71,31 +71,31 @@
 <!ENTITY subjectmanager.options.window.tab4.replace1streply.text			"Replace 'reply' prefix">
 <!ENTITY subjectmanager.options.window.tab4.replace1stforward.text			"Replace 'forward' prefix">
 <!ENTITY subjectmanager.options.window.tab4.replacementprefix.text			"Replacement prefix">
-<!ENTITY subjectmanager.options.window.tab5.text							"Message filters">
-<!ENTITY subjectmanager.options.window.tab5.group1.text						"Filters">
+<!ENTITY subjectmanager.options.window.tab5.text							"Laiškų filtrai">
+<!ENTITY subjectmanager.options.window.tab5.group1.text						"Filtrai">
 <!ENTITY subjectmanager.options.window.tab5.selectallfilters.text			"Enable/Disable handling of all filters">
-<!ENTITY subjectmanager.options.window.tab5.filtersubject.text				"Subject">
-<!ENTITY subjectmanager.options.window.tab6.text							"Miscellaneous">
+<!ENTITY subjectmanager.options.window.tab5.filtersubject.text				"Tema">
+<!ENTITY subjectmanager.options.window.tab6.text							"Kita">
 <!ENTITY subjectmanager.options.window.tab6.group1.text						"Options of 'Subject:' field of message composing window">
-<!ENTITY subjectmanager.options.window.tab6.subjectautocomplete.text		"Enable autocompletion">
-<!ENTITY subjectmanager.options.window.tab6.subjectautocompcase.text		"Case sensitive">
+<!ENTITY subjectmanager.options.window.tab6.subjectautocomplete.text		"Siūlyti užbaigimą">
+<!ENTITY subjectmanager.options.window.tab6.subjectautocompcase.text		"Vertinti raidžių registrą">
 <!ENTITY subjectmanager.options.window.tab6.subjectsbutton.text				"Enable the button of selection of a subject">
 <!ENTITY subjectmanager.options.window.tab6.labelreplacement.text			"Replace 'Subject:' label">
 <!ENTITY subjectmanager.options.window.tab6.focusemailbody.text				"Focus email body once a subject has been picked">
-<!ENTITY subjectmanager.options.window.tab6.group2.text						"Subjects tools">
-<!ENTITY subjectmanager.options.window.tab6.exportsubjects.text				"Export subjects">
-<!ENTITY subjectmanager.options.window.tab6.exportsubjects.tooltiptext		"Export subjects to file">
-<!ENTITY subjectmanager.options.window.tab6.importsubjects.text				"Import subjects">
+<!ENTITY subjectmanager.options.window.tab6.group2.text						"Temos įrankiai">
+<!ENTITY subjectmanager.options.window.tab6.exportsubjects.text				"Įrašyti temas">
+<!ENTITY subjectmanager.options.window.tab6.exportsubjects.tooltiptext		"Įrašyti temas į failą">
+<!ENTITY subjectmanager.options.window.tab6.importsubjects.text				"Importuoti temas">
 <!ENTITY subjectmanager.options.window.tab6.importsubjects.tooltiptext		"Import subjects from file">
-<!ENTITY subjectmanager.options.window.tab6.group3.text						"Help and support">
+<!ENTITY subjectmanager.options.window.tab6.group3.text						"Pagalba ir palaikymas">
 <!ENTITY subjectmanager.options.window.tab6.debugmode.text					"Enable debug mode (messages are logged in error console)">
-<!ENTITY subjectmanager.options.window.tab6.debugmode2file.text				"Log messages in a file">
-<!ENTITY subjectmanager.options.window.tab6.debugmode2file.tooltiptext		"Select location of log file">
+<!ENTITY subjectmanager.options.window.tab6.debugmode2file.text				"Pranešimus išsaugoti ataskaitos faile">
+<!ENTITY subjectmanager.options.window.tab6.debugmode2file.tooltiptext		"Parinkti atskaitos failo vietą">
 <!ENTITY subjectmanager.options.window.tab6.reinitautocomplete.text			"Re-initialize auto-completion">
-<!ENTITY subjectmanager.options.window.tab6.defaults.text					"Reset to factory defaults">
-<!ENTITY subjectmanager.options.window.tab6.defaults.tooltiptext			"Clean and reset all settings to factory defaults">
-<!ENTITY subjectmanager.options.window.tab6.exportsettings.text				"Export settings">
-<!ENTITY subjectmanager.options.window.tab6.exportsettings.tooltiptext		"Export settings to file">
-<!ENTITY subjectmanager.options.window.tab6.help.text						"Display help">
-<!ENTITY subjectmanager.options.window.tab6.contact.text					"Contact:">
-<!ENTITY subjectmanager.options.window.tab6.donation.text					"Donation:">
+<!ENTITY subjectmanager.options.window.tab6.defaults.text					"Atstatyti numatytasiais nuostatas">
+<!ENTITY subjectmanager.options.window.tab6.defaults.tooltiptext			"Visus nustatymus atstatyti į pirmines reikšmes">
+<!ENTITY subjectmanager.options.window.tab6.exportsettings.text				"Eksportuoti nuostatas">
+<!ENTITY subjectmanager.options.window.tab6.exportsettings.tooltiptext		"Įrašyti nuostatas į failą">
+<!ENTITY subjectmanager.options.window.tab6.help.text						"Pagalba">
+<!ENTITY subjectmanager.options.window.tab6.contact.text					"Kontaktai:">
+<!ENTITY subjectmanager.options.window.tab6.donation.text					"Auka:">

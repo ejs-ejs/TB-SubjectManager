@@ -1,12 +1,12 @@
-<!-- en-US -->
+<!-- lt-LT -->
 <!ENTITY subjectmanager								"Subject Manager">
 <!ENTITY subjectmanager.toolbar.text				"Subject Manager">
-<!ENTITY subjectmanager.toolbar.tooltip				"Manage subjects">
-<!ENTITY subjectmanager.toolbar.menuitem1.text		"Subjects">
-<!ENTITY subjectmanager.toolbar.menuitem1.tooltip	"Pick a subject from the list">
-<!ENTITY subjectmanager.toolbar.menuitem2.text		"Save subject">
-<!ENTITY subjectmanager.toolbar.menuitem2.tooltip	"Save current subject into the list">
-<!ENTITY subjectmanager.toolbar.menuitem3.text		"Remove auto prefixes">
-<!ENTITY subjectmanager.toolbar.menuitem3.tooltip	"Remove all automatic prefixes of current subject">
-<!ENTITY subjectmanager.toolbar.menuitem4.text		"Settings">
-<!ENTITY subjectmanager.toolbar.menuitem4.tooltip	"Open settings dialog">
+<!ENTITY subjectmanager.toolbar.tooltip				"Laikas susitvarkyti laiškų temas">
+<!ENTITY subjectmanager.toolbar.menuitem1.text		"Temos">
+<!ENTITY subjectmanager.toolbar.menuitem1.tooltip	"Parinkite temą iš sarašo">
+<!ENTITY subjectmanager.toolbar.menuitem2.text		"Išsaugoti temą">
+<!ENTITY subjectmanager.toolbar.menuitem2.tooltip	"Išsaugoti temą saraše">
+<!ENTITY subjectmanager.toolbar.menuitem3.text		"Panaikinti automatinius priešdėlius">
+<!ENTITY subjectmanager.toolbar.menuitem3.tooltip	"Panaikinti visus automatinius priešdėlius temoje">
+<!ENTITY subjectmanager.toolbar.menuitem4.text		"Nuostatos">
+<!ENTITY subjectmanager.toolbar.menuitem4.tooltip	"Atverti nuostatas">
