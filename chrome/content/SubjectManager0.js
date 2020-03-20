@@ -1560,6 +1560,8 @@ SubjectManager.resetCounter = function (lastExecution, counterInfo, resetParamet
  */
 SubjectManager.resetAllCounters = function (prefs)
 {
+	this.localConsole.logWarning("resetAllCounters", "prefs is '" + prefs + "'. That's all I know right now.");
+	
 	var lastExecution = prefs.getCharPref("lastExecution");
 
 	// global counter
