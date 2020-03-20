@@ -1564,8 +1564,14 @@ SubjectManager.resetAllCounters = function (prefs)
 
 	// global counter
 	this.debugMode = prefs.getBoolPref("debugMode");
-
-	var globalCounterSettingsObj = JSON.parse(prefs.getCharPref("globalCounterSettings"));
+	
+	var globalCounterSettings = prefs.getCharPref("globalCounterSettings");
+	
+	this.localConsole.logWarning("resetAllCounters", "globalCounterSettings is '" + globalCounterSettings + "'. That's all I know right now.");
+	
+	var globalCounterSettingsObj = JSON.parse(globalCounterSettings);
+	//var globalCounterSettingsObj = JSON.parse(prefs.getCharPref("globalCounterSettings"));
+	
 	var globalCounterSettings = globalCounterSettingsObj['global']; // gets global counter settings
 
 	if ( globalCounterSettings != null ) {
